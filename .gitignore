@@ -1,0 +1,15 @@
+# Scan data - never commit raw results
+results/*
+!results/.gitkeep
+source/*
+!source/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
